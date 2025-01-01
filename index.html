@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Summary</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div id="box-2">
+        
+        <div id="innerDiv">
+            <h1>Summary</h1>
+                
+            <div id="red-box">
+                Reaction &emsp;&emsp;&emsp;<span style="color: black; font-weight: 600;"> &emsp;80 </span> <span style="color: black; opacity: 50%;">/100</span>
+            </div>
+            <div id="yellow-box">
+                Memory &emsp;&emsp;&emsp;&emsp;<span style="color: black; font-weight: 600;"> &nbsp;92</span> <span style="color: black; opacity: 50%;">/100</span>
+            </div>
+            <div id="green-box">
+                Verbal &emsp;&emsp;&emsp;&emsp;<span style="color: black; font-weight: 600;">&nbsp;&nbsp;&nbsp;&nbsp; 61</span> <span style="color: black; opacity: 50%;">/100</span>
+            </div>
+            <div id="violet-box">
+                Visual &emsp;&emsp;&emsp;&emsp;<span style="color: black; font-weight: 600;">&nbsp;&nbsp;&nbsp;&nbsp; 72</span> <span style="color: black; opacity: 50%;">/100</span>
+            </div>
+
+             <button>Continue</button>
+        </div>
+    </div>
+    <div id="box-1">
+        <p style="color: white; text-align: center;font-size: 30px;padding-top: 30px;font-weight: 400; opacity: 60%;">Your Result</p>
+        <div id="percent">        
+            <p style="color: white; font-weight: 800;border-radius: 100px;text-align: center;font-size: 60px;padding-top: 50px;">76 <br><span style="font-size: 17px;opacity: 60%;font-weight: 100;">of 100</span></p>
+        </div>
+        <h1 style="text-align: center;margin-top: 30px; color: white;">Great</h3> <br>
+        <p id="matter">You scored higher than 65% of the people who have taken these tests</p>
+    </div>
+    <script>
+        document.querySelector('button').addEventListener('click', function() {
+            alert('You clicked the button');
+        });
+    </script>
+</body>
+</html>
